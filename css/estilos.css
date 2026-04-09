@@ -27,3 +27,39 @@ body {
   color: var(--color-text);
   line-height: 1.6;
 }
+/* ── Header fijo ── */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--color-primary);
+  z-index: 100;
+}
+
+.header-inner {
+  max-width: 960px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+/* Evita que el contenido quede debajo del header */
+main {
+  padding-top: 70px;
+}
