@@ -181,3 +181,73 @@ main {
   color: #2e7d32;
   border: 2px solid #2e7d32;
 }
+/* ── Sección contacto ── */
+.contact-section {
+  padding: 50px 0;
+  background: var(--color-white);
+}
+
+.contact-section .section-title {
+  text-align: center;
+}
+
+/* Formulario */
+.contact-form {
+  max-width: 500px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Grupo */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: var(--color-primary);
+}
+
+/* Inputs y textarea */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--color-grey);
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+/* EFECTO IMPORTANTE (evaluado) */
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 5px rgba(198, 40, 40, 0.3);
+}
+
+/* Botón */
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    transform 0.1s;
+}
+
+.btn-primary:hover {
+  background: var(--color-secondary);
+}
+
+.btn-primary:active {
+  transform: scale(0.97);
+}
