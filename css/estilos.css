@@ -251,3 +251,11 @@ textarea:focus {
 .btn-primary:active {
   transform: scale(0.97);
 }
+/* ── Footer ── */
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background: var(--color-dark);
+  color: white;
+  font-size: 14px;
+}
