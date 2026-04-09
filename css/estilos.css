@@ -121,3 +121,63 @@ main {
 .profile-bio {
   max-width: 400px;
 }
+/* ── Sección habilidades ── */
+.skills-section {
+  padding: 50px 0;
+  background: var(--color-bg);
+}
+
+/* Selector descendente */
+.skills-section .section-title {
+  font-size: 28px;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Lista */
+.skills-list {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Selector de hijo directo */
+.skills-list > .skill-item {
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: transform 0.2s;
+}
+
+.skills-list > .skill-item:hover {
+  transform: translateY(-3px);
+}
+
+/* Colores por tecnología (BEM) */
+.skill-item--html {
+  background: #f0f0f0;
+  color: #c62828;
+  border: 2px solid #c62828;
+}
+
+.skill-item--css {
+  background: #ffebee;
+  color: #c62828;
+  border: 2px solid #c62828;
+}
+
+.skill-item--js {
+  background: #fff8e1;
+  color: #f57f17;
+  border: 2px solid #f57f17;
+}
+
+.skill-item--java {
+  background: #e8f5e9;
+  color: #2e7d32;
+  border: 2px solid #2e7d32;
+}
